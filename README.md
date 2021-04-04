@@ -20,6 +20,12 @@ module.exports = {
   secretOrKey: "Your mongoDB secret key"
 };
 
+### First, create an .env file in the root of your project, i.e. where you would run react-scripts start (or yarn start) outside of your src folder.
+
+Then, add 
+GITHUB_CLIENT_ID = '5426233' like this
+GITHUB_CLIENT_SECRET = '2sd58f4gd66vf4' like this
+
 ### Build and run the Project
 npm run dev
 
